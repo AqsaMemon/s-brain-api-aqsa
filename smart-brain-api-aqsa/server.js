@@ -28,7 +28,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors());
 
-// const database = {
+const database = {
 // 	users: [
 // 	{		
 // 		id: '123',
